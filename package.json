@@ -1,0 +1,19 @@
+{
+  "name": "testa",
+  "version": "1.0.0",
+  "description": "测试用的项目",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/http-server -p 3000 ./html",
+    "test": "echo \"no test specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@srv1.hctx0591.com:8822/baivoom/TestA.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}
